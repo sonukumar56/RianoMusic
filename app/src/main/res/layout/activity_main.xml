@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Million of Songs.\n  Free On Riano."
+        android:textSize="35dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:paddingLeft="34dp"
+        android:paddingRight="21dp"
+        android:paddingBottom="9dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:textAllCaps="false"
+        android:id="@+id/signup_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:paddingLeft="87dp"
+        android:paddingRight="87dp"
+        android:text="Sign up Free"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/signup_btn"
+        android:onClick="signupbtn"
+        >
+
+    </androidx.appcompat.widget.AppCompatButton>
+    <androidx.appcompat.widget.AppCompatButton
+        android:textAllCaps="false"
+        android:id="@+id/withPhoneNo_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:paddingLeft="6dp"
+        android:paddingRight="62dp"
+        android:text="Continue with Phone\nNumber"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:background="@drawable/google_btn"
+        android:drawableLeft="@drawable/phone_icon"
+        android:drawablePadding="7dp"
+        android:layout_margin="13dp">
+
+    </androidx.appcompat.widget.AppCompatButton>
+    <androidx.appcompat.widget.AppCompatButton
+        android:textAllCaps="false"
+        android:id="@+id/withGoogle_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:paddingLeft="6dp"
+        android:paddingRight="57dp"
+        android:text="Continue with Google"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:drawablePadding="6dp"
+        android:background="@drawable/google_btn"
+        android:drawableLeft="@drawable/ic_icons8_google">
+
+    </androidx.appcompat.widget.AppCompatButton>
+    <TextView
+        android:id="@+id/loginScreen_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="22sp"
+      android:fontFamily="sans-serif-medium"
+        android:textColor="@color/white"
+        android:layout_margin="20dp">
+
+    </TextView>
+
+</LinearLayout>

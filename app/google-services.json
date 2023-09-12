@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "753786212635",
+    "project_id": "musicproject-3c678",
+    "storage_bucket": "musicproject-3c678.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:753786212635:android:b17ae127b14113810e03be",
+        "android_client_info": {
+          "package_name": "com.rianoMusicskb.rianomusic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "753786212635-4evpiapa97l8oo55vc5l7al2pgrvth98.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpdqN4fQJ8qQ6e4PaSGxQKngktt1EMow8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "753786212635-4evpiapa97l8oo55vc5l7al2pgrvth98.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

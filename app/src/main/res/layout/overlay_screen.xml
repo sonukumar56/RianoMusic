@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".overlayScreen"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/overlay_screen"
+    android:padding="28dp">
+<!--    <ImageView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="250dp"-->
+<!--        android:background="@drawable/kk"-->
+
+<!--        />-->
+    <RatingBar
+        android:id="@+id/my_rating_bar"
+        android:layout_gravity="right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        style="?android:attr/ratingBarStyleSmall"
+        android:isIndicator="false"
+        android:rating="3"
+        android:progressTint="#7A1818"
+        android:progressBackgroundTint="@color/white">
+
+    </RatingBar>
+    <SeekBar
+        android:id="@+id/my_seekbar"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:max="100"
+        >
+
+    </SeekBar>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        >
+        <TextView
+            android:id="@+id/sb_txt"
+            android:layout_height="26dp"
+            android:layout_width="62dp"
+            android:text="0"
+            android:paddingRight="15dp"
+            android:paddingLeft="14dp"
+            android:textSize="15dp"
+            android:textColor="@color/white"
+            android:layout_marginEnd="200dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/sb_txt_last"
+            android:layout_height="26dp"
+            android:layout_width="62dp"
+            android:text="3:53"
+            android:textSize="15dp"
+            android:textColor="@color/white">
+
+        </TextView>
+
+    </LinearLayout>
+    <ToggleButton
+        android:id="@+id/pause_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOff="pause"
+        android:textOn="play"
+        android:background="@drawable/login_btn"
+        android:onClick="pause_button">
+
+    </ToggleButton>
+
+</LinearLayout>

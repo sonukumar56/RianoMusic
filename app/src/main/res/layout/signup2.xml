@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signup2"
+    android:orientation="vertical"
+    android:background="@color/grey200"
+    android:gravity="center">
+    <TextView
+        android:layout_gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Name"
+        android:textSize="22dp"
+        android:paddingLeft="20dp"
+        android:textColor="#D6D6D6">
+
+    </TextView>
+    <EditText
+        android:id="@+id/edtname"
+        android:layout_width="330dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="22dp"
+        android:background="@drawable/emailuser"
+        android:hint="Please enter your name"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/grey200"
+        android:textSize="22dp"
+        android:layout_marginTop="9dp">
+
+    </EditText>
+    <TextView
+        android:layout_gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Password"
+        android:textSize="22dp"
+        android:paddingLeft="22dp"
+        android:textColor="#D6D6D6"
+        android:layout_marginBottom="6dp">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/edtpassword"
+        android:layout_width="330dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="22dp"
+        android:background="@drawable/emailuser"
+        android:hint="Enter password"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/grey200"
+        android:textSize="22dp">
+
+    </EditText>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="Resister"
+        android:textSize="20dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="75dp"
+        android:background="@drawable/buttonconrner"
+        android:onClick="resister">
+
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+</LinearLayout>

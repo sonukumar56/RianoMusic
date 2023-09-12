@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login_page"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@color/grey200">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_marginTop="12dp"
+        android:textSize="25sp"
+        android:textColor="@color/white">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email or User"
+            android:textSize="30sp"
+            android:layout_gravity="top"
+            android:paddingLeft="25dp"
+            android:layout_marginBottom="12dp"
+            android:textColor="@color/white">
+
+
+        </TextView>
+        <EditText
+            android:id="@+id/inpemail"
+            android:layout_width="330dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="22dp"
+            android:background="@drawable/emailuser"
+            android:hint="Enter Email or User"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="10dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/grey200"
+            android:textSize="22dp">
+        </EditText>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:paddingLeft="25dp"
+            android:textSize="30sp"
+            android:layout_marginBottom="12dp"
+            android:layout_gravity="bottom"
+            android:textColor="@color/white">
+
+
+        </TextView>
+        <EditText
+            android:id="@+id/loginPassword"
+            android:layout_width="330dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="22dp"
+            android:background="@drawable/emailuser"
+            android:hint="Enter Password"
+            android:inputType="textPassword"
+            android:paddingLeft="10dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/grey200"
+            android:textSize="22dp">
+
+        </EditText>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:textAllCaps="false"
+            android:id="@+id/login_btnn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/login_btn"
+            android:text="Login"
+
+            android:textColor="@color/black"
+            android:textIsSelectable="false"
+            android:textSize="23sp">
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
